@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slide</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.slider{
+			position: relative;
+			width: 960px;
+			height: 640px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.slides{
+			width: 8000px;
+			height: 640px;
+			display: block;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.slide{
+			width: 960px;
+			height: 640px;
+			float: left;
+		}
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  margin-top: -22px;
+		  padding: 16px;
+		  color: black;
+		  font-weight: bold;
+		  font-size: 25px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		}
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+		.prev:hover, .next:hover {
+		  background-color: rgba(0,0,0,0.8);
+		  color: white;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<div class="slider">
+		<ul class="slides">
+			<li class="slide" id="im1"><img src="n1.jpg"></li>
+			<li class="slide" id="im2"><img src="n2.jpg"></li>
+			<li class="slide" id="im3"><img src="n3.jpg"></li>
+			<li class="slide" id="im1"><img src="n1.jpg"></li>
+		</ul>
+		<a class="next" id="b1"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		<a class="prev" id="b2"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+	</div>
+    
+    
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		var $slides=$('.slides');
+		var currentSlide=1;
+		var slideCount=$slides.children().length;
+		console.log(slideCount);
+		var slideTime=2000;
+
+		setInterval(function(){
+            $slides.animate({
+            	marginLeft: '-=960px'
+            },slideTime,function(){
+            	console.log(currentSlide);
+            	currentSlide++;
+            	if(currentSlide==slideCount){
+            		currentSlide=1;
+            		$(this).css("margin-left","0px");
+            	}
+            });
+		},3000);
+        
+	</script>
+</body>
+</html>
