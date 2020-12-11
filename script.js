@@ -3,11 +3,11 @@ $(window).on('load', function() {
     console.log('All assets are loaded')
 
     var images  = $("#images").children('li'),
-        dot        = $("#dots").children('span'),
+        dot= $("#dots").children('span'),
         numImages = images.length,
-        tm      = 3500,
-        interval      = setInterval(autoPlay, tm),
-        i            = 0,
+        tm = 3500,
+        interval = setInterval(autoPlay, tm),
+        i = 0,
         a;
 
     function nextImg() {
@@ -29,11 +29,11 @@ $(window).on('load', function() {
     function moveImg( i, a ) {
         clearInterval(interval);
 
-        // remover
+       
         images.eq(a).removeClass('active');
         dot.eq(a).removeClass('active');
 
-        // adicionar
+   
         images.eq(i).addClass('active');
         dot.eq(i).addClass('active');
         
