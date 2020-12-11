@@ -1,0 +1,408 @@
+nav a{
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+	}
+nav{
+	margin-top: 20px;
+}
+.b1{
+	border-radius: 20px;
+	padding: 10px;
+	border: none;
+	background-color: #eb1395;
+	color: white;
+}
+.head1{
+	width: 100%;
+	height: 500px;
+	float: left;
+}
+.head2{
+	background-color: #eb1395;
+	width: 100%;
+	height: 500px;
+	opacity: 0.5;
+	z-index: -1;
+}
+.head3{
+	padding: 180px;
+	text-align: center;
+	color: #F8F9F9;
+	z-index: 2;
+}
+.b2{
+	padding: 10px;
+	color: #eb1395;
+	border-radius: 20px;
+	border: none;
+	background-color: #F8F9F9;
+}
+.about1{
+	float: left;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.about2{
+	float: right;
+	position: relative;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+.im1{
+	border-radius: 90px 220px 220px 90px;
+}
+.im2{
+	position: absolute;
+	border: 4px solid red;
+	border-radius: 50%;
+    left: 20px;
+	width: 350px;
+	height: 250px;
+    bottom: 80px;
+    margin-right: 120px;
+    border-radius: 100px 220px 220px 100px;
+}
+.b3{
+	background-color: #eb1395;
+	padding: 15px;
+	border-style: none;
+	border-radius: 25px;
+	color: white;
+}
+
+#feature{
+	float: left;
+	width: 100%;
+	height: 400px;
+}
+.feature1{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	padding: 20px;
+}
+.feature2{
+	width: 100%;
+	height: 300px;
+	margin-top: 75px;
+
+}
+.feat1{
+	text-align: center;
+	width: 30%;
+	float: left;
+}
+.feat2{
+	text-align: center;
+	width: 30%;
+	float: left;
+}
+.feat3{
+	text-align: center;
+	width: 30%;
+	float: left;
+}
+.features2{
+	float: left;
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+}
+.feats1{
+	float: left;
+	width: 60%;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.feats2{
+	float: right;
+	width: 30%;
+	height: 400px;
+	position: relative;
+}
+.im3{
+	border-radius: 90px 220px 220px 90px;
+}
+.im4{
+	position: absolute;
+	border: 4px solid red;
+	border-radius: 50%;
+	z-index: 1;
+	width: 350px;
+	height: 250px;
+    top: 1550px;
+    left: 50px;
+    margin-right: 250px;
+    border-radius: 100px 220px 220px 100px;
+}
+
+.dashboards{
+	width: 100%;
+	height: 600px;
+	float: left;
+	border: 1px solid black;
+	background-color: #D3D3D3;
+	text-align: center;
+	border-style: none;
+}
+.dash1 p{
+	font-size: 30px;
+	color:  #eb1395;
+}
+#reviews{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	float: left;
+}
+.review1{
+	width: 100%;
+	display: inline;
+	text-align: center;
+}
+.rtext{
+	font-size: 25px;
+	margin-top: 50px;
+}
+.subrev{
+	width: 25%;
+	display: inline-grid;
+	height: 350px;
+	text-align: center;
+	box-shadow: 10px 10px 8px 10px #888888;
+	padding: 10px;
+	float: left;
+	margin-left: 5%;
+	border: 1px solid black;
+}
+.r1{
+	margin-left: 6px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+#contactus{
+	width: 100%;
+	height: 700px;
+	float: left;
+	margin-top: 40px;
+}
+.c1{
+	
+	height: 80px;
+	background-size: cover;
+	padding: 20px;
+	background: linear-gradient(to top right, #ff0000 0%, #ff3399 77%);
+}
+.b4{
+
+	float: right;
+	padding: 20px;
+	background-color: white;
+	border-radius: 25px 25px 25px 25px;
+	margin-top: 5px;
+}
+.contus{
+	width: 100%;
+	height: 600px;
+	background-image: url("images.jpeg");
+}
+.left{
+	float: left;
+	width: 60%;
+	color: white;
+}
+.right{
+	float: right;
+	width: 40%;
+}
+.txt{
+	padding: 181px;
+}
+.form{
+      color: white;
+	  margin:80px;
+	  padding: 20px;
+	  margin-top: 70px;
+	}
+button{
+		padding: 16px;
+		border-radius: 6px;
+		background-color: #eb1395;
+		border: none;
+		color: white;
+		padding-left: 78px;
+		padding-right: 80px;
+	}
+.inp{
+	margin: 4px 2px;
+	padding: 12px 15px;
+	background-color: white;
+	}
+.footer{
+	float: left;
+	width: 100%;
+	height: 100px;
+    margin-top: 30px;
+}
+.lft{
+	float: left;
+	width: 30%;
+	height: 50px;
+	text-align: center;
+	margin-left: 30px;
+	padding: 10px;
+
+}
+.middle{
+	width: 30%;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+.middle a{
+	text-decoration: none;
+	color: #eb1395;
+}
+.rgt{
+	width: 30%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	padding: 20px;
+}
+.rgt a{
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+.icon{
+	font-size: 35px;
+}
+.b5{
+	width: 220px;
+	background: linear-gradient(to top right, #ff0000 0%, #ff3399 77%);
+	height: 30px;
+	border-style: none;
+}
+.fa-facebook, .fa-facebook-square {
+    color: #3b5998
+}
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+}
+.fa-twitter, .fa-twitter-square {
+    color: #00aced
+}
+
+#slider{
+    background-color: #fff;
+    text-align: center;
+}
+
+.slides {
+    background-color: #f54298;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.slides ul {
+    margin: 0;
+    padding: 0;
+}
+
+.slides ul li {
+    display: none;
+    list-style:none;
+    position: relative;
+    z-index: 1;
+}
+
+.slides ul li.active {
+    display: block;
+}
+
+.image-responsive { vertical-align: middle; opacity: 0.5;}
+.image-responsive{ width: 100%; height: 500px;}
+
+.text {
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    left: 40%;
+    width: 20%;
+    text-align: center;
+}
+  
+.num {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+#prev, #next {
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 13px 13px 0;       
+    z-index: 3;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+    border-radius: 13px 0 0 13px;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+#dots { 
+    display: block;
+    clear: both;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
